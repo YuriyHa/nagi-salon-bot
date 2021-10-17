@@ -1,0 +1,15 @@
+{ language: 
+	1 = ru
+	2 = uzb
+	3 = eng
+}
+{ read dates def: 
+	1 = lan
+	2 = username 
+	3 = keshback
+	4 = buy cont
+}
+funcs{
+	db.add_user(userid,name, lan)
+	db.read_data(userid)
+}
